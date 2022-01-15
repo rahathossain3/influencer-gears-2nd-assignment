@@ -1,7 +1,13 @@
+/*----------- font style ------- */
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 /* --------------- common styles ------------*/
 body {
     margin: 0;
     background: #FFFFFF;
+    font-family: 'Poppins';
 }
 
 
@@ -24,6 +30,25 @@ footer {
 .footer {
     padding-top: 30px;
     text-align: center;
-    /* padding-bottom: 30pxx; */
+}
+
+.footer p{
+    font-size: 14px;
+    padding: 0;
+}
+/* .footer a {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff2a;
+    border-radius: 50%;
+    text-align: center;
+
+} */
+.footer a i{
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+
 
 }
