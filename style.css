@@ -26,7 +26,12 @@ body {
     font-weight: 700;
     border:0px;
 }
-
+.button>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
 /* --------------------------------Page title With Menu section 1--------------------------------- */
 .page-title{
     margin-top: 87px;
@@ -96,7 +101,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     justify-items: center;
-
 }
 
 .section-title{
@@ -107,7 +111,7 @@ body {
 }
 .photo-frame{
     border-radius: 15px;
-    box-shadow:  1px .8px 10px rgba(97, 97, 97, 0.397) ;
+    box-shadow:  .8px .5px 20px rgba(97, 97, 97, 0.397) ;
     width: 300px;
     height: 476px;
     padding: 15px;
@@ -149,9 +153,28 @@ body {
     margin: 3px 0;
     font-weight: 700;
 }
+#others-photo{
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    margin: 50px 10px 100px 0;
+}
+/* -------------------------------------Vedio panal---------------- exta section ----------- */
+.product-reviews{
+    font-size: 14px;
+    color: rgba(37, 37, 37, 0.986);
 
-
-
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+}
+.video iframe{
+    margin: 5px;
+height: 250px;
+width: 400px;
+}
 /* ---------------------------------------- footer styles ---------------------------------------- */
 
 footer {
