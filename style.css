@@ -3,18 +3,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-/* --------------- common styles ------------*/
+/* --------------------------------------- common styles -----------------------------------------*/
 body {
     margin: 0;
     background: #FFFFFF;
     font-family: 'Poppins';
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.contener{
+    margin: 0px 120px 50px 120px; 
+}
+.button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #E02C6D;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    border:0px;
 }
 
+/* --------------------------------Page title With Menu section 1--------------------------------- */
+.page-title{
+    margin-top: 87px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
+}
+.menu a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 2em;
+}
 
+ /*------------------------------------ page heading contant section 2--------------------------- */
 
+.top-contant{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-/* -------------- footer styles ---------------- */
+}
+.top-info{
+    padding-right: 50px;
+}
+.top-contant h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.top-info p{
+    margin-top: 0;
+}
+.top-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-image img{
+    width: 430px;
+    height: 404px;    
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 470px;
+}
+
+ /* --------------------------------- Other Pages icon section 3 ------------------------------ */
+
+.icon-logo{
+    margin: 100px;
+    /* border: 1px solid rgb(128, 128, 128); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.icon-logo>img{
+    margin: 15px 10px;
+    padding: 5px;
+}
+
+/* ---------------------------------------- footer styles ---------------------------------------- */
 
 footer {
     /* display: flex;
