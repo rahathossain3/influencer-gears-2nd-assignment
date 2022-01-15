@@ -1,0 +1,29 @@
+/* --------------- common styles ------------*/
+body {
+    margin: 0;
+    background: #FFFFFF;
+}
+
+
+
+
+
+/* -------------- footer styles ---------------- */
+
+footer {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+    height: 239px;
+    color: #D9DBE1;
+    font-weight: 700;
+    background: #0A0826;
+
+}
+
+.footer {
+    padding-top: 30px;
+    text-align: center;
+    /* padding-bottom: 30pxx; */
+
+}
