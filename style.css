@@ -1,16 +1,18 @@
 /*----------- font style ------- */
 /* poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*............. font-family: 'Poppins'*/
 
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* ............... font-family: 'Roboto';  */
 
 /* --------------------------------------- common styles -----------------------------------------*/
 body {
     margin: 0;
     background: #FFFFFF;
     font-family: 'Poppins';
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+
 }
 .conteiner{
     margin: 0px 120px 50px 120px; 
@@ -87,6 +89,60 @@ body {
     margin: 15px 10px;
     padding: 5px;
 }
+
+ /* --------------------------------- Photo Album section 4 ------------------------------ */
+
+.section-title{
+ text-align: center;
+ margin-bottom: 30px;
+ font-size: 28px;
+ font-weight: 600;
+}
+.photo-frame{
+    border: 1px solid gray;
+    width: 300px;
+    height: 476px;
+    padding: 15px;
+}
+#item-photo{
+    width: 300px;
+    height: 256px;
+    border-radius: 10px;
+}
+.photo-frame .photo-title{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 16px 0 3px 0;
+}
+.price{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 3px 0 6px 0;
+    }
+#rating{
+    display: flex;
+    margin-bottom: 10px;
+}
+.rating-star{
+    font-size: 14px;
+    color: #FB8200;
+    margin-right: 15px;
+}
+.rating-point{
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #5E6366;
+}
+
+.photo-frame p{
+    font-size: 14px;
+    color: #787885;
+    margin: 3px 0;
+    font-weight: 700;
+}
+
+
 
 /* ---------------------------------------- footer styles ---------------------------------------- */
 
