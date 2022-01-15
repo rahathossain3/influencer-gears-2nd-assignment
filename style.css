@@ -25,6 +25,7 @@ body {
     color: #FFFFFF;
     font-weight: 700;
     border:0px;
+transition: .5s ease-in-out;
 }
 .button>a{
     text-decoration: none;
@@ -32,6 +33,12 @@ body {
     color: #FFFFFF;
     font-weight: 700;
 }
+/* ---------- common hover ---------- */
+.button:hover{
+    transform: scale(1.05);
+position: relative;
+}
+
 /* --------------------------------Page title With Menu section 1--------------------------------- */
 .page-title{
     margin-top: 87px;
@@ -48,6 +55,11 @@ body {
     font-weight: 600;
     margin-left: 2em;
 }
+/*------------------ menu hover ----------------*/
+.menu a:hover{
+    color: #E02C6D;
+}
+
 
  /*------------------------------------ page heading contant section 2--------------------------- */
 
@@ -104,14 +116,14 @@ body {
 }
 
 .section-title{
- text-align: center;
- margin-bottom: 30px;
- font-size: 28px;
- font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
 }
 .photo-frame{
     border-radius: 15px;
-    box-shadow:  .8px .5px 20px rgba(97, 97, 97, 0.397) ;
+    box-shadow:  .8px .5px 15px rgba(97, 97, 97, 0.397) ;
     width: 300px;
     height: 476px;
     padding: 15px;
@@ -160,6 +172,12 @@ body {
     text-align: right;
     margin: 50px 10px 100px 0;
 }
+/*--------- section 4--- hover------------- */
+.photo-frame:hover{
+    transform: scale(1.05);
+background-color: rgb(253, 255, 241);
+}
+
 /* -------------------------------------Vedio panal---------------- exta section ----------- */
 .product-reviews{
     font-size: 14px;
