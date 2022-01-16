@@ -86,11 +86,11 @@ position: relative;
     justify-content: center;
 }
 .top-image img{
-    width: 430px;
-    height: 404px;    
+    width: 400px;
+    height: 380px;    
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-size: 470px;
+background-size: 402px;
 }
 
  /* --------------------------------- Other Pages icon section 3 ------------------------------ */
