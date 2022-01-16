@@ -294,3 +294,60 @@ width: 325px;
 } 
 
 
+
+
+/* --------------------------------responsive website --------------------- mobile--- max 1024px--*/
+
+ @media only screen and (min-width: 768px) and (max-width:1024px){
+
+    main{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width:100%;
+       position: sticky;
+   
+    }
+    
+    .page-title{
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+.top-contant {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.top-info {
+    padding: 20px;
+
+}  
+
+.photo-album {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.video, .reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.video{
+    width: 80%;
+}
+.video iframe{
+margin: 5px;
+height: 200px;
+width: 325px;
+}
+
+} 
