@@ -179,14 +179,20 @@ background-color: rgb(253, 255, 241);
 }
 
 /* -------------------------------------Vedio panal---------------- exta section ----------- */
+.reviews{
+    padding: 30px ;
+    background-color: rgba(221, 220, 220, 0.425);
+}
 .product-reviews{
     font-size: 14px;
     color: rgba(37, 37, 37, 0.986);
+    text-align: center;
 
 }
 .video{
     display: flex;
     justify-content: space-between;
+    
 }
 .video iframe{
     margin: 5px;
@@ -231,3 +237,51 @@ footer {
 
 
 }
+
+
+
+/* --------------------------------responsive website --------------------- mobile--- max 768p-x--*/
+
+ @media only screen and (max-width: 768px){
+
+    body{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+    }
+    
+  
+    .page-title{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: start;
+    }
+.top-contant, .video{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5px 5px 5px;
+    text-align: center;
+}
+.top-info {
+    padding: 10px;
+}  
+.footer{
+    width: 100%;
+}
+
+
+
+.photo-album {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+/* .top-contant .photo-album .video */
+} 
