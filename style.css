@@ -80,15 +80,17 @@ position: relative;
 .top-info p{
     margin-top: 0;
 }
-.top-image{
+.top-image img{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .top-image img{
     width: 400px;
-    height: 380px;    
-    background-image: url(images/Circle\ design.svg);
+    height: 380px;  
+}  
+ .top-image{
+        background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
 background-size: 402px;
 }
@@ -180,7 +182,7 @@ background-color: rgb(253, 255, 241);
 
 /* -------------------------------------Vedio panal---------------- exta section ----------- */
 .reviews{
-    padding: 30px ;
+    padding: 10px ;
     background-color: rgba(221, 220, 220, 0.425);
 }
 .product-reviews{
@@ -190,9 +192,13 @@ background-color: rgb(253, 255, 241);
 
 }
 .video{
-    display: flex;
-    justify-content: space-between;
-    
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 10px;
+    justify-items: center;  
 }
 .video iframe{
     margin: 5px;
@@ -202,8 +208,6 @@ width: 400px;
 /* ---------------------------------------- footer styles ---------------------------------------- */
 
 footer {
-    /* display: flex;
-    flex-direction: column; */
     width: 100%;
     height: 239px;
     color: #D9DBE1;
@@ -221,21 +225,12 @@ footer {
     font-size: 14px;
     padding: 0;
 }
-/* .footer a {
-    width: 50px;
-    height: 50px;
-    background-color: #ffffff2a;
-    border-radius: 50%;
-    text-align: center;
 
-} */
 .footer a i{
     color: #FFFFFF;
     margin-right: 10px;
     margin-left: 10px;
     font-size: 18px;
-
-
 }
 
 
@@ -249,13 +244,13 @@ footer {
        flex-direction: column;
        align-items: center;
        width: 100%;
+
     }
     
     .page-title{
         display: flex;
+        flex-direction: column;
         margin-right: 30px;
-
-
     }
     .conteiner{
         margin-left: 30px;
@@ -269,7 +264,6 @@ footer {
 .top-contant {
     display: flex;
     flex-direction: column;
-
     text-align: center;
 }
 .top-info {
@@ -289,66 +283,16 @@ footer {
 }
 .video{
     width: 80%;
-
-
 }
 
 .footer{
     width: 100%;
 }
 
-} 
-
-/* --------------------------------responsive website --------------------- mobile--- max 76-x--
-
-@media only screen and (min-width: 768px) and (max-width: 1023px){
-
-    body{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       width: 100%;
-    }
-    
-  
-    .page-title{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .menu{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: start;
-    }
-.top-contant {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 5px 5px 5px;
-    text-align: center;
-}
-.top-info {
-    padding: 10px;
-}  
-
-.photo-album {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.video, .reviews{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-}
-.video{
-    width: 80%;
-}
-
-.footer{
-    width: 100%;
+.video iframe{
+margin: 5px;
+height: 200px;
+width: 325px;
 }
 
 } 
-*/
